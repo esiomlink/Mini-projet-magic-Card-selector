@@ -1,0 +1,28 @@
+.searchBar{
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searchBar h1{
+  font-size: 2rem;
+  margin: 2rem;
+}
+.searchBar input{
+  border-radius: 9999px;
+  margin-bottom: 4rem;
+}
+.find ul{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+.find ul h1 {
+  margin: 1rem;
+  text-align: center;
+
+}
