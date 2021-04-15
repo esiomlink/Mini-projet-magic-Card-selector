@@ -65,7 +65,29 @@ const FindMagicCard = () => {
         <div className='showInfos'>
           <div className='infos'>
             <div className='head'>
-              <h1>hello</h1>
+              <ul>
+                {cards
+                .filter((card)=>card.name.includes(cardName))
+                .map((card)=>(
+                  <div className="container">
+                    <div className="cardShow">
+                      <h1>{card.name}</h1>
+                    <img
+                    src={card.imageUrl}
+                    alt='img'/>
+                    </div>
+                    <div className="cardInfos">
+                    <li><span>Type:</span> {card.type}</li>
+                    <li><span>Colors:</span> {card.colors}</li>
+                    <li><span>ManaCost:</span> {card.manaCost}</li>
+                    <li><span>Rarity:</span> {card.rarity}</li>
+                    <li><span>Description:</span> {card.text}</li>
+                    <li><span>Power:</span>{card.power},<span>Toughness:</span>{card.toughness}</li>
+                    <button>EXIT</button>
+                    </div>
+                  </div>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
