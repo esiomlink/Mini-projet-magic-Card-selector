@@ -32,6 +32,9 @@ const FindMagicCard = () => {
     setCardName(card.name);
     setInfos(!infos);
   };
+  const handleExit = ()=>{
+    setInfos(false)
+  }
 
   return (
     <div className='find'>
@@ -83,7 +86,7 @@ const FindMagicCard = () => {
                     <li><span>Rarity:</span> {card.rarity}</li>
                     <li><span>Description:</span> {card.text}</li>
                     <li><span>Power:</span>{card.power},<span>Toughness:</span>{card.toughness}</li>
-                    <button>EXIT</button>
+                    <button onClick={handleExit}>EXIT</button>
                     </div>
                   </div>
                 ))}
