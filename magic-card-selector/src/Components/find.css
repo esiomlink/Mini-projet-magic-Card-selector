@@ -28,7 +28,7 @@
 }
 .showInfos{
   left: 10%;
-  position: absolute;
+  position: fixed;
   width: 90%;
   height: 45rem;
   top: 10rem;
