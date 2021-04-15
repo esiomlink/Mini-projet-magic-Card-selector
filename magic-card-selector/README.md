@@ -1,3 +1,26 @@
+  ######   Welcom TO the Magic Card Selector  #####
+/---------------------------------------------------/
+
+*****Ce mini projet a été créé dans le but de s'entrainer à la manipulation des données récupérer sur l'API de Magic (le jeu de cartes).
+
+J'aborde React avec l'utilisation des Hooks et des Appel API avec AXIOS. 
+
+Cette application affiche les cartes de l'api une barre de recherche est présente pour chercher les cartes par leurs noms.
+
+Au clic sur une carte cette carte s'affiche en grand avec un descriptif de celle-ci******
+
+/*----------------------------------------------------------------*/
+
+****This mini project was created in the but to practice the manipulation of the data to be recovered on the API of Magic (the card game).
+
+I approach React with the use of Hooks and API Calls with AXIOS.
+
+This application displays the maps of the API a search bar is present to search the maps by their names.
+
+When you click on a map, this map is displayed in large size with a description of it*****
+
+/*----------------------------------------------------------------*/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
